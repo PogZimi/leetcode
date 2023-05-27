@@ -36,5 +36,6 @@ class Solution(object):
 
         for i in range(threeSumList.__len__()):
             threeSumList[i].sort()      
-        deduplicated_threeSumList = set(tuple(lst) for lst in threeSumList)         
+        ded = set(tuple(lst) for lst in threeSumList)         
+        deduplicated_threeSumList = [list(tpl) for tpl in ded] 
         return deduplicated_threeSumList
