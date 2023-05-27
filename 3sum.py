@@ -6,10 +6,12 @@
 IMPORTANT STUFF : 
 
 -> threeSumList is the list in which we store the 3 integers whose sum is equal to target value 
--> Since the threeSumList stores duplicates , we created a new list 'deduplicated_threeSumList'.
+-> Since the threeSumList stores duplicates , we created a new set 'deduplicated_threeSumList'.
+-> Ignore the naming convention , i am bad at naming variables & functions lol 
 -> threeSumList stores sub lists. In simple words , we created a multi-dimensional array/list 
 -> We sorted each element ( sub-list) 
 -> We used set() to remove duplicates & obtain unique values 
+-> We then stored those unique values as tuples inside 'deduplicated_threeSumList'.
 
 '''
 
