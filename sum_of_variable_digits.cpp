@@ -1,6 +1,15 @@
 #include<iostream>
 using namespace std; 
 
+/*
+
+Example : 
+
+84 -> 8 + 4 = 12 
+12 -> 1 + 2 = 3 
+
+*/
+
 class Solution{
 public: 
    int addDigits(int num) {
